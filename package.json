@@ -14,12 +14,16 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "next": "^9.4.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
     "preact": "^10.4.4",
     "preact-render-to-string": "^5.1.4",
     "react": "github:preact-compat/react#1.0.0",
     "react-dom": "github:preact-compat/react-dom#1.0.0",
-    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1"
+    "react-ssr-prepass": "npm:preact-ssr-prepass@^1.0.1",
+    "tailwindcss": "^1.4.6"
   },
   "license": "UNLICENSE"
 }

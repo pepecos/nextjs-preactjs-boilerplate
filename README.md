@@ -57,3 +57,14 @@ npm run dev
 ```
 
 It will automatically fill the tsconfig.json. Make sure you set strict to true.
+
+## TailwindCSS
+[PostCSS](https://nextjs.org/docs/advanced-features/customizing-postcss-config) is already installed in Next.js
+
+`npm install tailwindcss`
+
+`npx tailwindcss init`
+
+`npm install @fullhuman/postcss-purgecss --save-dev`
+
+npm install postcss-flexbugs-fixes postcss-preset-env
