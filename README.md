@@ -20,3 +20,40 @@ There is a huge difference between ReactJS and Preact bundle size. ReactJS is ab
                                    
 # How to build 
 Clone the example repo from [developit](https://github.com/developit/nextjs-preact-demo)
+
+```shell script
+git clone https://github.com/developit/nextjs-preact-demo.git
+cd nextjs-preact-demo
+npm install
+```
+
+The example takes advantage of npm/yarn aliases, which essentially allow installing preact/compat at node_modules/react.
+
+Here's how this example repo was set up:
+
+Set up a basic Next.js app using create-next-app
+Install preact, uninstall react and react-dom.
+Install preact-compat/react and preact-compat/react-dom for aliasing.
+Use an npm alias to replace react-ssr-prepass with preact-ssr-prepass (also works with Yarn).
+
+## TypeScript
+https://nextjs.org/docs/basic-features/typescript
+
+Create an empty tsconfig.json file in the root of your project:
+```shell script
+touch tsconfig.json
+```
+
+Then, install the required packages to finish the set up:
+```shell script
+npm install --save-dev typescript @types/react @types/node
+```
+
+Rename .js files to .tsx.
+
+Run start the local server:
+```shell script
+npm run dev
+```
+
+It will automatically fill the tsconfig.json. Make sure you set strict to true.

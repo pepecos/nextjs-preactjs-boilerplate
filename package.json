@@ -8,7 +8,10 @@
   },
   "devDependencies": {
     "@prefresh/next": "^0.3.0",
-    "react-refresh": "^0.8.3"
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "react-refresh": "^0.8.3",
+    "typescript": "^3.9.5"
   },
   "dependencies": {
     "next": "^9.4.0",
