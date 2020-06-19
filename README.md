@@ -68,3 +68,6 @@ It will automatically fill the tsconfig.json. Make sure you set strict to true.
 `npm install @fullhuman/postcss-purgecss --save-dev`
 
 npm install postcss-flexbugs-fixes postcss-preset-env
+
+## Eslint
+npm i --save-dev lint-staged husky eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react
