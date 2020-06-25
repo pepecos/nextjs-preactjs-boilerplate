@@ -1,4 +1,4 @@
-const path = require("path");
+// TODO: is this line required?
 const tailwindcss = require("tailwindcss");
 
 module.exports = ({ config }) => {
