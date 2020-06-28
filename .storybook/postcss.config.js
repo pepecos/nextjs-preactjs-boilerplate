@@ -3,7 +3,6 @@ const postcssPresetEnv = require("postcss-preset-env");
 module.exports = {
   plugins: [
     require("tailwindcss"),
-    require("postcss-flexbugs-fixes"),
     postcssPresetEnv({
       autoprefixer: {
         flexbox: "no-2009",
@@ -13,5 +12,6 @@ module.exports = {
         "custom-properties": false,
       },
     }),
+    require("postcss-flexbugs-fixes"),
   ],
 };
