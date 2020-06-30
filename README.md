@@ -17,8 +17,8 @@ There is a huge difference between ReactJS and Preact bundle size. ReactJS is ab
 
 ## TailwindCSS
 [Utility first](https://tailwindcss.com/docs/utility-first/)
-                                   
-# How to build 
+
+# How to build
 Clone the example repo from [developit](https://github.com/developit/nextjs-preact-demo)
 
 ```shell script
@@ -71,3 +71,11 @@ npm install postcss-flexbugs-fixes postcss-preset-env
 
 ## Eslint
 npm i --save-dev lint-staged husky eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react
+
+## Support us
+Any help is welcome and will be entirely used to keep making software to increase visibility and reducing barriers to animal adoption.
+
+[![Invite us to a coffe?](https://drive.google.com/uc?export=view&id=1YeObFENYFAuZ3SrTARlMjoTHbSsc1J_8 "Invite us to a coffe?")](https://www.buymeacoffee.com/pepecos)
+[![Donate using PayPal](https://drive.google.com/uc?export=view&id=1fsa448kpXt7AnoorEoqGNQz_PxsXv1fP "Donate using PayPal")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HB665ALYKDD6L&source=url)
+
+![Donate using PayPal](https://drive.google.com/uc?export=view&id=1cVI7LvOY7sqts02mb4njuja3dHm7XiAN "Donate using PayPal")
