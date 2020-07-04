@@ -1,4 +1,4 @@
-// TODO: is this line required?
+const path = require("path");
 const tailwindcss = require("tailwindcss");
 
 module.exports = ({ config }) => {
